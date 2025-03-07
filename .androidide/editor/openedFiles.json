@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Basic Info Cards App/app/src/main/java/com/nexera/basicinfocardsapp/MainActivity.kt",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 2344,
+          "line": 74
+        },
+        "start": {
+          "column": 1,
+          "index": 2344,
+          "line": 74
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Basic Info Cards App/app/src/main/java/com/nexera/basicinfocardsapp/MainActivity.kt"
+}

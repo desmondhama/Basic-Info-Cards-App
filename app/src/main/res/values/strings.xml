@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Basic Info Cards App</string>
+	<string name="title_text">Text Composable</string>
+    <string name="infomation_text">Displays text and follows the recommended Material Design guidelines.</string>
+	<string name="title_image">Image Composable</string>
+	<string name="infomation_image">Creates a composable that lays out and draws a given Painter class object.</string>
+	<string name="title_row">Row Composable</string>
+	<string name="infomation_row">A layout composable that places its children in a horizontal sequence.</string>
+	<string name="title_column">Column Composable</string>
+    <string name="infomation_column">A layout composable that places its children in a vertical sequence.</string>
+</resources>
