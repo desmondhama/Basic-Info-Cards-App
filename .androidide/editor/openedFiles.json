@@ -4,14 +4,29 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/Basic Info Cards App/app/src/main/java/com/nexera/basicinfocardsapp/MainActivity.kt",
       "selection": {
         "end": {
-          "column": 1,
-          "index": 2344,
-          "line": 74
+          "column": 0,
+          "index": 2856,
+          "line": 87
         },
         "start": {
-          "column": 1,
-          "index": 2344,
-          "line": 74
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Basic Info Cards App/app/src/main/res/values/strings.xml",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
         }
       }
     }
