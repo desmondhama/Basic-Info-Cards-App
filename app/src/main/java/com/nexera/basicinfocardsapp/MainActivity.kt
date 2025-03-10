@@ -84,5 +84,107 @@ fun FourEqualParts() {
                 )
 			}
         }
+		// Top-right part
+        Box(
+            modifier = Modifier
+                .fillMaxWidth(0.5f)
+                .fillMaxHeight(0.5f)
+                .background(color = Color(0xFFD0BCFF))
+                .align(Alignment.TopEnd),
+				contentAlignment = Alignment.Center
+        ) {
+            Column(
+			    modifier = Modifier.padding(16.dp)
+				) {
+			    Text(
+                    text = stringResource(R.string.title_image),
+                    style = TextStyle(
+                    fontWeight = FontWeight.Bold
+                    ),
+					modifier = Modifier
+					.fillMaxWidth()
+					.padding(bottom = 16.dp),
+				    textAlign = TextAlign.Center
+                )
+			    Text(
+                    text = stringResource(R.string.infomation_image),
+                    style = TextStyle(
+                                fontSize = 18.sp
+                            ),
+					modifier = Modifier
+					.fillMaxWidth()
+					.padding(bottom = 16.dp),
+				    textAlign = TextAlign.Center
+                )
+			}
+        }
+		// Bottom-left part
+        Box(
+            modifier = Modifier
+                .fillMaxWidth(0.5f)
+                .fillMaxHeight(0.5f)
+                .background(color = Color(0xFFB69DF8))
+                .align(Alignment.BottomStart),
+				contentAlignment = Alignment.Center
+        ) {
+            Column(
+			    modifier = Modifier.padding(16.dp)
+				) {
+			    Text(
+                    text = stringResource(R.string.title_row),
+                    style = TextStyle(
+                    fontWeight = FontWeight.Bold
+                    ),
+					modifier = Modifier
+					.fillMaxWidth()
+					.padding(bottom = 16.dp),
+				    textAlign = TextAlign.Center
+                )
+			    Text(
+                    text = stringResource(R.string.infomation_row),
+                    style = TextStyle(
+                                fontSize = 18.sp
+                            ),
+					modifier = Modifier
+					.fillMaxWidth()
+					.padding(bottom = 16.dp),
+				    textAlign = TextAlign.Center
+                )
+			}
+        }
+		// Bottom-right part
+        Box(
+            modifier = Modifier
+                .fillMaxWidth(0.5f)
+                .fillMaxHeight(0.5f)
+                .background(color = Color(0xFFF6EDFF))
+                .align(Alignment.BottomEnd),
+				contentAlignment = Alignment.Center
+        ) {
+            Column(
+			    modifier = Modifier.padding(16.dp)
+				) {
+			    Text(
+                    text = stringResource(R.string.title_column),
+                    style = TextStyle(
+                    fontWeight = FontWeight.Bold
+                    ),
+					modifier = Modifier
+					.fillMaxWidth()
+					.padding(bottom = 16.dp),
+				    textAlign = TextAlign.Center
+                )
+			    Text(
+                    text = stringResource(R.string.infomation_column),
+                    style = TextStyle(
+                                fontSize = 18.sp
+                            ),
+					modifier = Modifier
+					.fillMaxWidth()
+					.padding(bottom = 16.dp),
+				    textAlign = TextAlign.Center
+                )
+			}
+        }
     }
 }
